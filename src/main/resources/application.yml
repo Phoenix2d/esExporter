@@ -1,0 +1,13 @@
+---
+elastic:
+  sortEntity: |
+    {
+      "size": 1000,
+      "sort": [
+        "_doc"
+      ]
+    }
+spring:
+  main:
+    web-application-type: none
+---
